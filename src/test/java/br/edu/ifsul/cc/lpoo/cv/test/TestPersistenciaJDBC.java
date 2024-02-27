@@ -32,7 +32,7 @@ public class TestPersistenciaJDBC {
         //Reavaliação da Primeira Etapa
     }
     
-    //@Test
+    @Test
     public void testPersistenciaConexao() throws Exception {
         
         //criar um objeto do tipo PersistenciaJDBC.
@@ -457,7 +457,7 @@ public class TestPersistenciaJDBC {
             if(listF.isEmpty()){
                 
                 Funcionario f = new Funcionario();
-                f.setCpf("0011357788");
+                f.setCpf("00113577880");
                 f.setSenha("1234");
                 f.setRg("123456789");
                 f.setNome("teste persistencia funcionario");
